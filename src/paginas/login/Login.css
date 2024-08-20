@@ -1,0 +1,79 @@
+/* Login.css */
+
+.fundoLogin {
+    background-image: url('../../assets/login.jpg'); /* Caminho para a imagem de fundo */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área do contêiner */
+    background-position: center; /* Centraliza a imagem */
+    min-height: 100vh; /* Garante que o fundo ocupe toda a altura da viewport */
+    width: 100%; /* Garante que o fundo ocupe toda a largura da viewport */
+    display: flex; /* Utiliza flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove padding */
+    position: relative; /* Posicionamento relativo para garantir que o formulário seja posicionado sobre o fundo */
+}
+
+.login-content {
+    position: relative; /* Garante que o conteúdo do formulário seja posicionado corretamente */
+    z-index: 1; /* Garante que o conteúdo fique acima do fundo */
+}
+
+.login-form {
+    background: rgba(90, 90, 90, 0.7); /* Fundo semitransparente para contraste */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 100%;
+    max-width: 400px; /* Define uma largura máxima */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra para destacar o formulário */
+}
+
+.login-title {
+    color: white; /* Cor do texto */
+    margin-bottom: 20px; /* Margem abaixo do título */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Espaço entre os campos */
+}
+
+.input-field {
+    border: 2px solid #ffffff; /* Cor da borda dos inputs */
+    border-radius: 4px; /* Bordas arredondadas para os inputs */
+    padding: 10px;
+    width: 100%; /* Garante que o input ocupe toda a largura do contêiner */
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+}
+
+.submit-button {
+    background-color: #007bff; /* Cor do fundo do botão (azul) */
+    color: white; /* Cor do texto do botão */
+    padding: 10px;
+    border: none;
+    border-radius: 4px; /* Bordas arredondadas para o botão */
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Garante que o botão ocupe toda a largura do contêiner */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse (azul mais escuro) */
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ffffff; /* Linha de separação */
+    margin: 20px 0; /* Margem acima e abaixo da linha */
+}
+
+.signup-link {
+    color: #dc3545; /* Cor do link (vermelho) */
+    text-decoration: underline; /* Sublinha o link */
+}
+
+.signup-link:hover {
+    color: #c82333; /* Cor do link ao passar o mouse (vermelho mais escuro) */
+}

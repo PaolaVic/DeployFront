@@ -1,0 +1,73 @@
+/* Define a imagem de fundo no body para garantir que ocupe toda a tela */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../../assets/cadastro.jpg'); /* Caminho para a imagem de fundo */
+  background-repeat: repeat; /* Repetir a imagem */
+  background-size: auto; /* Não esticar a imagem */
+  background-position: top left; /* Posiciona a imagem no canto superior esquerdo */
+  min-height: 100vh; /* Garante que o fundo ocupe toda a altura da viewport */
+
+}
+
+/* Estilo do formulário */
+.form-container {
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente para contraste */
+  padding: 20px;
+  border-radius: 8px; /* Bordas arredondadas */
+  width: 100%;
+  max-width: 600px; /* Define uma largura máxima */
+  text-align: center; /* Centraliza o texto */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra para destacar o formulário */
+}
+
+/* Estilos do texto */
+.text-slate-900 {
+  color: #ffffff; /* Cor do texto ajustada para branco para maior visibilidade */
+  margin-bottom: 20px; /* Margem abaixo do título */
+}
+
+/* Estilos dos inputs */
+input {
+  border: none; /* Remove as bordas dos inputs */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno */
+  width: 100%; /* Garante que o input ocupe toda a largura do contêiner */
+  background: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+  box-sizing: border-box; /* Inclui o padding no cálculo da largura do input */
+  margin-bottom: 15px; /* Espaçamento entre os campos de entrada */
+}
+
+/* Estilo dos botões */
+button {
+  border: none; /* Remove as bordas dos botões */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno */
+  color: #ffffff; /* Cor do texto dos botões */
+  cursor: pointer; /* Adiciona um cursor de pointer */
+  font-size: 16px; /* Ajusta o tamanho da fonte */
+  width: 48%; /* Garante que os botões tenham uma largura adequada */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  margin: 0 1%; /* Espaçamento horizontal entre os botões */
+}
+
+button:first-child {
+  margin-right: 2%; /* Ajusta o espaçamento entre o botão 'Cancelar' e o botão 'Cadastrar' */
+}
+
+/* Cores dos botões */
+.bg-red-900 {
+  background-color: #ef4444; /* Cor do fundo do botão 'Cancelar' */
+}
+
+.bg-red-500:hover {
+  background-color: #dc2626; /* Cor do fundo do botão 'Cancelar' ao passar o mouse */
+}
+
+.bg-blue-900 {
+  background-color: #6366f1; /* Cor do fundo do botão 'Cadastrar' */
+}
+
+.bg-blue-500:hover {
+  background-color: #4f46e5; /* Cor do fundo do botão 'Cadastrar' ao passar o mouse */
+}
